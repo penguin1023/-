@@ -13,7 +13,7 @@ player = st.text_input("좋아하는 선수를 입력하세요")
 
 table = st.text_input("리그 예상 순위를 입력하세요")
 
-trophy = st.selectbox("우승 트로피를 고르세요", ["리그", "리그컵", "챔스", "유로파", "컨퍼런스", "무관"])
+trophy = st.multiselect("우승 트로피를 고르세요", ["리그", "리그컵", "챔스", "유로파", "컨퍼런스", "무관"])
 
 st.markdown("---")
 st.subheader("입력 결과 확인")
