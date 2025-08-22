@@ -22,7 +22,7 @@ if team:
   st.write(f"응원팀: {team}")
 
 if player:
-  st.write(f"최애선수: {player})
+  st.write(f"최애선수: {player}")
 
 if table:
   st.write(f"순위: {int(table)}")
