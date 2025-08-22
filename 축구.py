@@ -9,7 +9,7 @@ st.title("축구")
 
 team = st.text_input("응원팀을 입력하세요")
 
-player = st.text_inpit("좋아하는 선수를 입력하세요")
+player = st.text_input("좋아하는 선수를 입력하세요")
 
 table = st.number_input("리그 예상 순위를 입력하세요")
 
